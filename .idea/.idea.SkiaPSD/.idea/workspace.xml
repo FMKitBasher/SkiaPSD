@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="159d2cdf-0308-4e4b-b548-ab6fb8121c3d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/PsdSharp.Tests.SkiaSharp/PsdSharp.Tests.SkiaSharp.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PsdSharp.Tests.SystemDrawingPsd/Adapters/Adapter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PsdSharp.Tests.SystemDrawingPsd/Adapters/AdjustmentLayerInfoAdapter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PsdSharp.Tests.SystemDrawingPsd/Adapters/AdjustmentLayerInfoFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PsdSharp.Tests.SystemDrawingPsd/Adapters/BigEndianReaderAdapter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PsdSharp.Tests.SystemDrawingPsd/Adapters/LayerAdapter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PsdSharp.Tests.SystemDrawingPsd/Adapters/PsdFileAdapter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PsdSharp.Tests.SystemDrawingPsd/Adapters/ResolutionInfoAdapter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PsdSharp.Tests.SystemDrawingPsd/PsdSharp.Tests.SystemDrawingPsd.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PsdSharp.Tests/Adapters/IAdjustmentLayerInfoAdapter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PsdSharp.Tests/Adapters/IAdjustmentLayerInfoFactoryAdapter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PsdSharp.Tests/Adapters/IAlphaChannelsAdapter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PsdSharp.Tests/Adapters/IAlphaChannelsFactoryAdapter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PsdSharp.Tests/Adapters/IBigEndianReaderAdapter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PsdSharp.Tests/Adapters/IBigEndianReaderFactoryAdapter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PsdSharp.Tests/Adapters/IBlendingRangesAdapter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PsdSharp.Tests/Adapters/IBlendingRangesFactoryAdapter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PsdSharp.Tests/Adapters/IImageDecoderAdapter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PsdSharp.Tests/Adapters/IImageDecoderFactoryAdapter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PsdSharp.Tests/Adapters/IImageResourceAdapter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PsdSharp.Tests/Adapters/IImageResourceFactoryAdapter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PsdSharp.Tests/Adapters/ILayerAdapter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PsdSharp.Tests/Adapters/ILayerChannelAdapter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PsdSharp.Tests/Adapters/ILayerFactoryAdapter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PsdSharp.Tests/Adapters/ILayerMaskAdapter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PsdSharp.Tests/Adapters/IPsdFileAdapter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PsdSharp.Tests/Adapters/IPsdFileLoaderAdapter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PsdSharp.Tests/Adapters/IResolutionInfoAdapter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PsdSharp.Tests/Adapters/IResolutionInfoFactoryAdapter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PsdSharp.Tests/PsdSharp.Tests.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PsdSharp.Types/BlendMode.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PsdSharp.Types/Color.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PsdSharp.Types/ImageCompression.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PsdSharp.Types/ImageResourceIds.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PsdSharp.Types/LayerClipping.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PsdSharp.Types/LayerSectionType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PsdSharp.Types/PsdSharp.Types.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PsdSharp.Types/Rectangle.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PsdSharp.Types/ResolutionUnit.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PsdSharp.Types/Unit.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1af41839925b4409b823837d7b5f29d691940/c3/9897c995/Rectangle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1af41839925b4409b823837d7b5f29d691940/ed/a7924da8/Color.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4290c01eea7748b3aa477ca831e6a387531830/63/4057a88b/Object.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4290c01eea7748b3aa477ca831e6a387531830/82/00b4ba98/BinaryReader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PsdSharp.Tests/Adapters/IPsdFileAdapter.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="Toolset" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="31yag6WDLgIRP1Ns8xrlb6HtUei" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "port-from-windows",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="159d2cdf-0308-4e4b-b548-ab6fb8121c3d" name="Changes" comment="" />
+      <created>1756498875029</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1756498875029</updated>
+      <workItem from="1756498876117" duration="10513000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+</project>

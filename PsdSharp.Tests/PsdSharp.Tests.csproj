@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFrameworks>net4.7.2;net9.0</TargetFrameworks>
+        <Nullable>enable</Nullable>
+        <LangVersion>latest</LangVersion>
+        <OutputType>Exe</OutputType>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <XunitStartupAssembly>PsdSharp.Tests.SystemDrawingPsd</XunitStartupAssembly>
+        <XunitStartupFullName>Startup</XunitStartupFullName>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\PsdSharp.Tests.Adapters\PsdSharp.Tests.Adapters.csproj" />
+      <ProjectReference Include="..\PsdSharp.Types\PsdSharp.Types.csproj" />
+    </ItemGroup>
+    
+    <ItemGroup Condition="'$(TargetFramework)' == 'net4.7.2'">
+        <ProjectReference Include="..\PsdSharp.Tests.SystemDrawingPsd\PsdSharp.Tests.SystemDrawingPsd.csproj" />
+    </ItemGroup>
+    
+    <ItemGroup Condition="'$(TargetFrameworkIdentifier)' == '.NETCoreApp'">
+        <ProjectReference Include="..\PsdSharp.Tests.SkiaSharp\PsdSharp.Tests.SkiaSharp.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Assets\1.psd" />
+      <EmbeddedResource Include="Assets\1.psd" />
+      <None Remove="Assets\5.psd" />
+      <EmbeddedResource Include="Assets\5.psd" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
+      <PackageReference Include="xunit.v3" Version="3.0.1" />
+    </ItemGroup>
+
+</Project>

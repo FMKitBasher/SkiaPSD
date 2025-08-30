@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net472</TargetFramework>
+        <LangVersion>latest</LangVersion>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\PsdSharp.Tests.Adapters\PsdSharp.Tests.Adapters.csproj" />
+      <ProjectReference Include="..\System.Drawing.PSD\System.Drawing.PSD.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="xunit.v3.extensibility.core" Version="3.0.1" />
+    </ItemGroup>
+
+</Project>
