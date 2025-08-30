@@ -3,10 +3,8 @@ using PsdSharp.Tests.Adapters;
 
 namespace PsdSharp.Tests.SystemDrawingPsd.Adapters
 {
-    public class BigEndianReaderAdapter(BinaryReverseReader subject) : IBigEndianReaderAdapter
+    public class BigEndianReaderAdapter(BinaryReverseReader subject) : Adapter<BinaryReverseReader>(subject), IBigEndianReaderAdapter
     {
-        public readonly BinaryReverseReader Subject = subject;
-
         public short ReadInt16() => Subject.ReadInt16();
         public int ReadInt32() => Subject.ReadInt32();
         public long ReadInt64() => Subject.ReadInt64();

@@ -7,11 +7,6 @@
         <OutputType>Exe</OutputType>
     </PropertyGroup>
 
-    <PropertyGroup>
-        <XunitStartupAssembly>PsdSharp.Tests.SystemDrawingPsd</XunitStartupAssembly>
-        <XunitStartupFullName>Startup</XunitStartupFullName>
-    </PropertyGroup>
-
     <ItemGroup>
       <ProjectReference Include="..\PsdSharp.Tests.Adapters\PsdSharp.Tests.Adapters.csproj" />
       <ProjectReference Include="..\PsdSharp.Types\PsdSharp.Types.csproj" />

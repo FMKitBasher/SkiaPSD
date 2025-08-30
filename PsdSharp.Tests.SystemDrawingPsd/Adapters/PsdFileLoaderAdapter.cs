@@ -4,7 +4,7 @@ using PsdSharp.Tests.Adapters;
 
 namespace PsdSharp.Tests.SystemDrawingPsd.Adapters
 {
-    public class PsdFileLoaderAdapter : IPsdFileLoaderAdapter
+    public class PsdFileLoaderAdapter : Adapter, IPsdFileLoaderAdapter
     {
         public IPsdFileAdapter Load(string filePath)
         {
